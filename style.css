@@ -58,17 +58,22 @@ body{
     justify-content: space-around;
     width: 50%;
 }
+
+a {
+    text-decoration: none;
+    color: orange;
+}
 .navItem1{
-    padding-right: 5%;
+    /* padding-right: 5%; */
 }
 .navItem2{
-    padding-right: 5%;
+    /* padding-right: 5%; */
 }
 .navItem3{
-    padding-right: 5%;
+    /* padding-right: 5%; */
 }
 .navItem4{
-    padding-right: 5%;
+    /* padding-right: 5%; */
 }
 .navSearchIcon{
     height: 20px;
