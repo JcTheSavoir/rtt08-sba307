@@ -144,6 +144,82 @@ a {
 }
 /* ---------- Navigation Bar above */
 
+.servicePageContainer{
+    display: flex;
+    flex-flow: column;
+    height: 200vh;
+
+}
+/* Page Containers above */
+.serviceSellProp{
+    display: flex;
+    flex-direction: column;
+    border: solid blue;
+    align-items: center;
+    height: auto;
+    padding: 5px;
+}
+.serviceMainHead{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.serviceSuppHead{
+    font-size: medium;
+    text-align: center;
+}
+.serviceHero1{
+    position: relative;
+    display: flex;
+    max-height: 30%;
+    width: 100%;
+}
+.serviceHeroImage{
+    width: 100%;
+    height: auto;
+}
+.serviceHeroDescr{
+    position: absolute;
+    left: 2%; 
+    /* background-color: #000000;  */
+    color: purple;
+    padding: 10px 20px; 
+    font-size: 3.5vw; 
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.serviceSeparator{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.serviceSeparatorTitle{
+    font-size: large;
+    text-align: center;
+    font-weight: 500;
+}
+.serviceSeparatorDesc{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+}
+.serviceSeparatorDesc2{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+.serviceSeparatorQuote{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold; 
+}
+.serviceSeparatorQuote2{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400; 
+}
+/* Services selling Proposition Above */
 
 .sellProp{
     display: flex;
@@ -156,9 +232,11 @@ a {
 .mainHead{
     font-size: large;
     font-weight: bold;
+    text-align: center;
 }
 .suppHead{
     font-size: medium;
+    text-align: center;
 }
 /* USP Unique Selling Proposition above*/
 .hero1 {
