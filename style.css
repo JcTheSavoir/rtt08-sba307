@@ -9,6 +9,14 @@ body{
       background-color: green;
       color:salmon;
     }
+    .rightNavBar{
+        display: flex;
+        justify-content: end;
+        height: 100%;
+    }
+    .navItem5{
+        display: none;
+    }
   }
 
 /* -----------------------------------------------------[End Of Desktop] */
@@ -19,6 +27,14 @@ body{
     body {
       background-color: blue;
       color:peru
+    }
+    .rightNavBar{
+        display: flex;
+        justify-content: end;
+        height: 100%;
+    }
+    .navItem5{
+        display: none;
     }
   }
 
@@ -31,6 +47,14 @@ body{
       background-color: orange;
       color: lemonchiffon;
     }
+    .rightNavBar{
+        display: none;
+        justify-content: end;
+        height: 100%;
+    }
+    .navItem5{
+        display: block;
+    }
 }
 /* -----------------------------------------------------[End Of Mobile] */
 
@@ -39,48 +63,88 @@ body{
 
 .navBar{
     display: flex;
-    padding: 5px;
-    /* padding-top: 10px; */
+    height: 3vh;
     border: solid red;
     justify-content: space-between;
     align-items: center;
 }
 .leftNavBar{
-   /* width: 50%; */
    border: solid orange;
+   height: 100%;
 }
 .navCompanyLogo{
     display: flex;
-    height: 30px;
+    height: 100%
+    /* width: 200px;  */
 }
-.rightNavBar{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-}
+
 
 a {
     text-decoration: none;
     color: orange;
 }
-.navItem1{
-    /* padding-right: 5%; */
-}
-.navItem2{
-    /* padding-right: 5%; */
-}
-.navItem3{
-    /* padding-right: 5%; */
-}
-.navItem4{
-    /* padding-right: 5%; */
-}
 .navSearchIcon{
     height: 20px;
 }
 
+.serviceLink{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-right:  5%;
+}
+.signUpLink{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-right:  5%;
+}
+.historyLink{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-right:  5%;
+}
+.homepageLink{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-right:  5%;
+}
+.navItem4{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-right:  2%;
+}
+.offCanvasLinkMenu{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+}
+.offCanvasMenuOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+}
+.offCanvasItem4{
+    display: inline-flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-right: 5%;
 
-/* Navigation Bar above */
+}
+/* ---------- Navigation Bar above */
+
+
 .sellProp{
     display: flex;
     flex-direction: column;
