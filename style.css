@@ -147,8 +147,11 @@ a {
 .servicePageContainer{
     display: flex;
     flex-flow: column;
-    /* height: 300vh; */
+}
 
+.historyPageContainer{
+    display: flex;
+    flex-flow: column;
 }
 /* Page Containers above */
 .serviceSellProp{
@@ -176,7 +179,7 @@ a {
 }
 .serviceHeroImage{
     width: 100%;
-    height: auto;
+    
 }
 .serviceHeroDescr{
     position: absolute;
@@ -243,17 +246,46 @@ table, th, td {
     text-align: center;
 }
 .historyHero1{
+    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid green;
+    max-height: 91vh;
+    width: 100%;
 }
 .historyHeroImage{
-        /* height: 300px; */
         width: 100%;
 }
 .historyHeroDescr{
-    font-size: medium;
+    position: absolute;
+    top: 65%;
+    color: purple;
+    padding: 10px 20px; 
+    text-align: center;
+    font-size: 3vw; 
+    font-weight: bold;
+}
+
+.historyDetailsContainer{
+    display: flex;
+    flex-flow: column;
+}
+.historyDetailsTitle{
+    margin: 2em 0 0 0;
+    text-align: center;
+    font-size:xx-large;
+}
+.historyDetailsSubTitle{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    margin: 1em 0 0 0;
+}
+.historyDetailsDescription{
+    text-align: center;
+    list-style-position: inside;
+}
+.historyDetailsList{
+    margin-right: 2%;
+    font-weight: bold;
 }
 /* History selling Proposition Above */
 
