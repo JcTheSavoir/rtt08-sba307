@@ -147,7 +147,7 @@ a {
 .servicePageContainer{
     display: flex;
     flex-flow: column;
-    height: 200vh;
+    /* height: 300vh; */
 
 }
 /* Page Containers above */
@@ -171,7 +171,7 @@ a {
 .serviceHero1{
     position: relative;
     display: flex;
-    max-height: 30%;
+    max-height: 70vh;
     width: 100%;
 }
 .serviceHeroImage{
@@ -181,12 +181,10 @@ a {
 .serviceHeroDescr{
     position: absolute;
     left: 2%; 
-    /* background-color: #000000;  */
     color: purple;
     padding: 10px 20px; 
     font-size: 3.5vw; 
     font-weight: bold;
-    /* text-align: center; */
 }
 
 .serviceSeparator{
@@ -221,6 +219,11 @@ a {
 }
 /* Services selling Proposition Above */
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+/* table above */
 .sellProp{
     display: flex;
     flex-direction: column;
