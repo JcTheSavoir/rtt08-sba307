@@ -300,6 +300,8 @@ table, th, td {
     border-collapse: separate;
     background-color: #219ebc;
     color: #ffb703;
+    animation-name: tableChange;
+    animation-duration: 10s;
 }
 /* table above */
 
@@ -481,4 +483,9 @@ table, th, td {
 
 .signUpDeal{
     width: 100%;
+}
+
+@keyframes tableChange{
+    from{background-color: #ffb703 }
+    to{ background-color: #219ebc}
 }
