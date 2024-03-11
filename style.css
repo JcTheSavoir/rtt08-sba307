@@ -1,21 +1,32 @@
 body{
-    border: solid black;
-    border-width: .2px;
+    /* border: solid black; */
+    /* border-width: .2px; */
 }
 
 /* ----------------------------------------------{ Desktop View} */
 @media (max-width: 3580px) {
-    body {
-      background-color: green;
-      color:salmon;
-    }
     .rightNavBar{
         display: flex;
         justify-content: end;
         height: 100%;
+        color: #ffb703;
     }
     .navItem5{
         display: none;
+        color: #ffb703;
+    }
+    .benefitFeature{
+    width: 30%;
+    margin: 1em;
+    font-size: xx-large;
+    text-align: center;
+    }
+    .conGoal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #023047;
+    padding: 2em;
     }
   }
 
@@ -24,17 +35,28 @@ body{
 
 /* ----------------------------------------------{ Mid View - Ipad / Tablet} */
 @media (max-width: 1080px) {
-    body {
-      background-color: blue;
-      color:peru
-    }
     .rightNavBar{
         display: flex;
         justify-content: end;
         height: 100%;
+        color: #ffb703;
     }
     .navItem5{
         display: none;
+        color: #ffb703;
+    }
+    .benefitFeature{
+    width: 50%;
+    margin: 1em;
+    font-size: xx-large;
+    text-align: center;
+    }
+    .conGoal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #023047;
+    padding: 2em;
     }
   }
 
@@ -43,17 +65,28 @@ body{
 
 /* ----------------------------------------------{ Mobile View} */
 @media (max-width: 605px) {
-    body {
-      background-color: red;
-      color: lemonchiffon;
-    }
     .rightNavBar{
         display: none;
         justify-content: end;
         height: 100%;
+        color: #ffb703;
     }
     .navItem5{
         display: block;
+        color: #ffb703;
+    }
+    .benefitFeature{
+    width: 100%;
+    margin: 1em 0 1em 0;
+    font-size: x-large;
+    text-align: center;
+    }
+    .conGoal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #023047;
+    padding: 0px;
     }
 }
 /* -----------------------------------------------------[End Of Mobile] */
@@ -64,24 +97,25 @@ body{
 .navBar{
     display: flex;
     height: 3vh;
-    border: solid red;
     justify-content: space-between;
     align-items: center;
+    background-color: #219ebc;
+    color: #ffb703;
+
 }
 .leftNavBar{
-   border: solid orange;
    height: 100%;
+   color: #ffb703;
 }
 .navCompanyLogo{
     display: flex;
     height: 100%
-    /* width: 200px;  */
 }
 
 
 a {
     text-decoration: none;
-    color: orange;
+    color: #ffb703;
 }
 
 
@@ -125,28 +159,25 @@ a {
     white-space: nowrap;
     height: 100%;
     align-items: center;
-    color: orange;
+    color: #ffb703;
 }
 .btn-primary:hover{
     background-color: transparent;
-    color: orange;
+    color: #ffb703;
 }
+.btn.btn-primary.dropdown-toggle{
+    padding: 0;
+}
+.btn.btn-primary.dropstart{
+    padding: 3px 6px;
+}
+
 .dropstart{
     height: 100%;
 }
 .dropdown-center{
     height: 100%;
 } 
-.btn-secondary{
-    background-color: transparent;
-    border: 0;
-    display: inline-flex;
-    white-space: nowrap;
-    height: 100%;
-    align-items: center;
-    margin-right:  5%;
-    color: orange;
-}
 
 
 .dropdown-toggle{
@@ -187,7 +218,6 @@ a {
 .serviceSellProp{
     display: flex;
     flex-direction: column;
-    border: solid blue;
     align-items: center;
     height: auto;
     padding: 5px;
@@ -261,7 +291,6 @@ table, th, td {
 .historySellProp{
     display: flex;
     flex-direction: column;
-    border: solid blue;
     align-items: center;
     height: auto;
     padding: 5px;
@@ -321,73 +350,111 @@ table, th, td {
 .sellProp{
     display: flex;
     flex-direction: column;
-    border: solid blue;
     align-items: center;
     height: auto;
-    padding: 5px;
+    padding: 1em;
+    background-color: #8ecae6;
+    
 }
 .mainHead{
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
+    color: #fb8500;
 }
 .suppHead{
     font-size: medium;
     text-align: center;
+    color: #ffb703;
 }
 /* USP Unique Selling Proposition above*/
 .hero1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid green;
+    /* border: solid green; */
+    background-color: #023047;
+    color: #219ebc;
+    
 }
 .heroImage{
     /* height: 300px; */
     width: 100%;
 }
 .heroDescr{
+    width: 30;
     font-size: medium;
-
+    font-size: x-large;
+    text-align: center;
+    margin: 1em;
 }
 /* Hero Image above */
 .benefitOf{
-    border: solid red;
-}
-.benefitFeature{
-    border:solid blue;
-    text-align: center;
-}
-/* Benefits of Offering above */
-.socialProof{
-    border: solid green;
-}
-.socialQuotes{
-    border: solid red;
-    text-align: center;
-}
-/* Social Proof above */
-.conGoal{
+    
+    background-color: #219ebc;
+    color: #ffb703;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid blue;
+    justify-content: center;
 }
+
+/* Benefits of Offering above */
+.socialProof{
+    background-color: #8ecae6;
+    padding: 1em;
+}
+.socialQuotes{
+    color: #023047;
+    text-align: center;
+}
+/* Social Proof above */
+
 .conTitle{
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
+    text-align: center;
+    color: #fb8500;
+    padding: 1em 1em .5em 1em;
 }
 .conSubTitle{
-    font-size: medium;
+    font-size: large;
+    text-align: center;
+    color: #ffb703;
+    padding: 1em;
 }
+.conSubTitle2{
+    font-size: large;
+    text-align: center;
+    color: #8ecae6;
+    padding: 0 1em 2em 1em;
+
+}
+
 .navigationOptions{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .ourStoryButton{
-    margin: 5px;
+    background-color: #fb8500;
+    color: #023047;
+    font-size: large;
+    border: 0;
+    margin: 1em;
+}
+.navigationSeparator{
+    color:#8ecae6;
+    text-align: center;
 }
 .whatWeDoButton{
-    margin: 5px;
+    background-color: #fb8500;
+    color: #023047;
+    font-size: large;
+    border: 0;
+    margin: 1em;
+}
+
+.signUpDeal{
+    width: 100%;
 }
