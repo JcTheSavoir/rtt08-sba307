@@ -214,6 +214,7 @@ a {
 .historyPageContainer{
     display: flex;
     flex-flow: column;
+    background-color: #8ecae6;
 }
 /* Page Containers above */
 .serviceSellProp{
@@ -338,6 +339,7 @@ table, th, td {
     text-align: center;
     font-size: 3vw; 
     font-weight: bold;
+    background-color: rgba(22, 216, 53, 0.3);
 }
 
 .historyDetailsContainer{
@@ -348,19 +350,25 @@ table, th, td {
     margin: 2em 0 0 0;
     text-align: center;
     font-size:xx-large;
+    background-color: #219ebc;
+    
+    color: #fb8500;
 }
 .historyDetailsSubTitle{
     text-align: center;
     font-size: x-large;
     font-style: italic;
     margin: 1em 0 0 0;
+    color: #ffb703;
 }
 .historyDetailsDescription{
     text-align: center;
     list-style-position: inside;
+    color: #023047;
 }
 .historyDetailsList{
     font-weight: bold;
+    padding: 0;
 }
 /* History selling Proposition Above */
 
