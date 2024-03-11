@@ -17,9 +17,16 @@
                 </div>
                 <div class="rightNavBar">
                     <a href="otherPages/pageOne.html" class="serviceLink"><div class="navItem1">What We Do</div></a>
-                    <a href="otherPages/pageThree.html" class="signUpLink"><div class="navItem2">Save Money - Sign Up</div></a>
                     <a href="otherPages/pageTwo.html" class="historyLink"><div class="navItem3">Our History</div></a>
-                    <div class="navItem4">Contact Us</div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">Save Money - Sign Up</button>
+                    <div class="btn btn-primary dropstart">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Contact Us</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item">Our Email: lorum</a></li>
+                            <li><a class="dropdown-item">Our Address: lorum</a></li>
+                            <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Another Way?</button></li>
+                        </ul>
+                    </div>
                 </div>
                     <!-- hidden offCanvas -->
                 <div class="navItem5">
@@ -32,16 +39,76 @@
                         <div class="offcanvas-body">
                             <div class="offCanvasMenuOptions">
                                 <a href="otherPages/pageOne.html" class="serviceLink"><div class="navItem1">What We Do</div></a>
-                                <a href="otherPages/pageThree.html" class="signUpLink"><div class="navItem2">Save Money - Sign Up</div></a>
                                 <a href="otherPages/pageTwo.html" class="historyLink"><div class="navItem3">Our History</div></a>
-                                <div class="offCanvasItem4">Contact Us</div>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Save Money - Sign Up</button>
+                                <div class="dropdown-center">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Contact Us</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item">Our Email: lorum</a></li>
+                                        <li><a class="dropdown-item">Our Address: lorum</a></li>
+                                        <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Another Way?</button></li>
+                                    </ul>
+                                  </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            
+            <!-- Popup signUp form -->
+
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>You'll be "racing" to get here with all the deals we'll send!</h2>
+                        <div class="emailContainer">
+                            <form action="">
+                                <img src="https://c.tenor.com/pl_gFQutg-sAAAAC/tenor.gif" alt="" class="signUpDeal"><br>
+                                <label for="signUpEmailForm" class="signUpEmailText">Email Address</label><br>
+                                <input type="email" id="signUpEmailForm" name="signUpEmailForm" class="signUpEmail" required>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">SignUp</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            <!-- Popup contact Info-->
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">We Can Contact You instead!</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Drop your email and we'll get back to you within 3-5 business days.</h2>
+                        <div class="signUpEmailContainer"><br>
+                            <form action="">
+                                <label for="contactEmailForm" class="contactUsEmailText">Email Address</label><br>
+                                <input type="email" id="contactEmailForm" name="contactEmailForm" class="contactUsEmail" required>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Contact Me</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <!-- The unique selling proposition -->
             <div class="sellProp">
                 <div class="mainHead">Have you ever felt cheated after getting your vehicle repaired?</div>
