@@ -208,6 +208,7 @@ a {
 .servicePageContainer{
     display: flex;
     flex-flow: column;
+    background-color: #023047;
 }
 
 .historyPageContainer{
@@ -220,16 +221,19 @@ a {
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 5px;
+    padding: 1em;
+    background-color: #8ecae6;
 }
 .serviceMainHead{
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
+    color: #fb8500;
 }
 .serviceSuppHead{
     font-size: medium;
     text-align: center;
+    color: #ffb703;
 }
 .serviceHero1{
     position: relative;
@@ -248,43 +252,53 @@ a {
     padding: 10px 20px; 
     font-size: 3.5vw; 
     font-weight: bold;
+    background-color: rgba(22, 216, 53, 0.3);
 }
 
 .serviceSeparator{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    background-color: #023047;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 1em .5em 1em;
 }
 .serviceSeparatorTitle{
     font-size: large;
     text-align: center;
     font-weight: 500;
+    color: #ffb703;
 }
 .serviceSeparatorDesc{
     font-size: medium;
     text-align: center;
     font-weight: 400;
+    color: #8ecae6;
 }
 .serviceSeparatorDesc2{
     font-size: x-large;
     text-align: center;
     font-weight: bold;
+    color: #fb8500;
 }
 .serviceSeparatorQuote{
     font-size: x-large;
     text-align: center;
-    font-weight: bold; 
+    font-weight: bold;
+    color: #fb8500; 
 }
 .serviceSeparatorQuote2{
     font-size: medium;
     text-align: center;
-    font-weight: 400; 
+    font-weight: 400;
+    color: #8ecae6; 
 }
 /* Services selling Proposition Above */
 
 table, th, td {
     border: 1px solid black;
     border-collapse: separate;
+    background-color: #219ebc;
+    color: #ffb703;
 }
 /* table above */
 
@@ -293,16 +307,19 @@ table, th, td {
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 5px;
+    padding: 1em;
+    background-color: #8ecae6;
 }
 .historyMainHead{
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
+    color: #fb8500;
 }
 .historySuppHead{
     font-size: medium;
     text-align: center;
+    color: #ffb703;
 }
 .historyHero1{
     position: relative;
@@ -354,7 +371,6 @@ table, th, td {
     height: auto;
     padding: 1em;
     background-color: #8ecae6;
-    
 }
 .mainHead{
     font-size: large;
@@ -367,7 +383,7 @@ table, th, td {
     text-align: center;
     color: #ffb703;
 }
-/* USP Unique Selling Proposition above*/
+/* index.html Selling Proposition above*/
 .hero1 {
     display: flex;
     flex-direction: column;
